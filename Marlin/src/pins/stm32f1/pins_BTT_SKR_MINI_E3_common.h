@@ -41,7 +41,7 @@
 //
 // Servos
 //
-#define SERVO0_PIN                          PA1   // "SERVOS"
+#define SERVO0_PIN                          PC14   // "SERVOS"
 
 //
 // Limit Switches
@@ -53,7 +53,7 @@
 //
 // Z Probe must be this pin
 //
-#define Z_MIN_PROBE_PIN                     PC14  // "PROBE"
+#define Z_MIN_PROBE_PIN                     PA1  // "PROBE"
 
 //
 // Filament Runout Sensor
@@ -133,7 +133,7 @@
 
   #if ENABLED(CR10_STOCKDISPLAY)
 
-    #define BEEPER_PIN                      PB5
+    #define BEEPER_PIN                      -1
     #define BTN_ENC                       EXP1_9
 
     #define BTN_EN1                         PA9
